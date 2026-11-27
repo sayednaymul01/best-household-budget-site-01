@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ghorer Hisab — Household Budget</title>
+<meta name="description" content="Ghorer Hisab — a household budget site for a Dhaka family: income, expenses, monthly tracking, savings goals and reports, all offline.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">৳</span>
+      <span class="brand-text"><span class="brand-name">Ghorer Hisab</span><span class="brand-tag">Household budget · Dhaka</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Sections">
+      <a class="nav-link" href="#/">Dashboard</a>
+      <a class="nav-link" href="#/income">Income</a>
+      <a class="nav-link" href="#/expenses">Expenses</a>
+      <a class="nav-link" href="#/months">Monthly</a>
+      <a class="nav-link" href="#/goals">Goals</a>
+      <a class="nav-link" href="#/reports">Reports</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap" id="view" aria-live="polite"></main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Ghorer Hisab — a household budget planner for a family of four in Dhaka. Figures are a sample household in Taka; add your own income and spending and the site keeps the totals for you. Everything runs offline in your browser and your entries stay on your device.</p>
+    <p><button type="button" class="link-btn" id="reset-data">Start over with the sample household</button></p>
+    <p class="fine">Made for the make.fun “Make the best household budget site” bounty.</p>
+  </div>
+</footer>
+<script type="module" src="main.js"></script>
+</body>
+</html>
